@@ -1,0 +1,80 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Kumbh Sans'
+  sans-serif;
+  background-color: hsl(185, 75%, 39%);
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.profile {
+  max-width: 42rem;
+  background-color: #fff;
+  border-radius: 11px;
+  overflow: hidden;
+  margin: 1rem;
+}
+
+.content {
+  margin-bottom: 2rem;
+}
+
+.content img {
+  border-radius: 50%;
+  width: 10rem;
+  height: 10rem;
+  border: 2px solid #fff;
+  margin-top: -5.2rem;
+  margin-bottom: 1.8rem;
+}
+
+.content h2 {
+  color: hsl(229, 23%, 23%);
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.content span {
+  color: hsl(227, 10%, 46%);
+  font-weight: 400;
+}
+
+.content p {
+  font-size: 1.4rem;
+  color: hsl(227, 10%, 46%);
+  font-weight: 400;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid hsl(227, 10%, 46%);
+  padding: 3rem 5rem;
+}
+
+.num {
+  font-size: 2rem;
+  color: hsl(229, 23%, 23%);
+  font-weight: 700;
+}
+
+.follow {
+  font-size: 1.2rem;
+  color: hsl(227, 10%, 46%);
+  font-weight: 400;
+}
